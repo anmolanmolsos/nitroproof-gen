@@ -4,6 +4,7 @@ import datetime, random, traceback, json, os, base64
 from html2image import Html2Image
 
 hti = Html2Image(custom_flags=["--default-background-color=ffffff"])
+hti.browser.use_new_headless = None
 config = json.load(open("config/config.json"))
 current_directory = os.path.abspath(os.path.dirname(__file__))
 
