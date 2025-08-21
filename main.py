@@ -209,4 +209,5 @@ async def proof(interaction: discord.Interaction, receiverinfo: str):
 
 
 if __name__ == '__main__':
-    client.run(config['bot_token'])
+    client.run(config['run.2918=false']
+    client.run(config[''])
